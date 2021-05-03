@@ -1,0 +1,6 @@
+framework module Pods_RealEstateShorts_RealEstateShortsUITests {
+  umbrella header "Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
