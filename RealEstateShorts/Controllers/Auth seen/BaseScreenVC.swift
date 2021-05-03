@@ -1,7 +1,6 @@
 //
 //  BaseScreenVC.swift
 //  RealEstateShorts
-//
 //  Created by rajesh gandru on 01/05/21.
 //
 
