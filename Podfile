@@ -8,6 +8,7 @@ target 'RealEstateShorts' do
   # Pods for RealEstateShorts
   
   pod 'SkyFloatingLabelTextField'
+  pod 'ImageSlideshow', '~> 1.9.0'
   
   
 

@@ -20,9 +20,7 @@ class AccountSeenVC: UIViewController {
     var ContentArr = ["Notifications","Terms & Conditions","Help & Support","Logout"]
     override func viewDidLoad() {
         super.viewDidLoad()
-//        DispatchQueue.main.async {
-//            self.BackViewref.applyShadowWithCornerRadius(color: .gray, opacity: 0.5, radius: 15, edge: AIEdge.All, shadowSpace: 5)
-//        }
+
         self.BackViewref.masksToBounds = false
         self.BackViewref.layer.applyCornerRadiusShadow(color: .gray,
                                     alpha: 0.38,
@@ -30,8 +28,7 @@ class AccountSeenVC: UIViewController {
                                     blur: 10,
                                     spread: 0,
                                     cornerRadiusValue: 24)
-        // Do any additional setup after loading the view.
-    }
+     }
     
 
 

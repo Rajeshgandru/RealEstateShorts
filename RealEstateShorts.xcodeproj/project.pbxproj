@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		7C2B8D6AEBEB0B48CFC06C4F /* Pods_RealEstateShorts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA760BD8503FA8882BCAE6 /* Pods_RealEstateShorts.framework */; };
 		9DA8AE439C4B437929B076E2 /* Pods_RealEstateShortsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E93537ADED65269DFE5DB7C /* Pods_RealEstateShortsTests.framework */; };
+		BA411578263FB284006F1E29 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156A263FB284006F1E29 /* PlayfairDisplay-Bold.ttf */; };
+		BA411579263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156B263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf */; };
+		BA41157A263FB284006F1E29 /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156C263FB284006F1E29 /* PlayfairDisplay-Medium.ttf */; };
+		BA41157B263FB284006F1E29 /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156D263FB284006F1E29 /* PlayfairDisplay-BoldItalic.ttf */; };
+		BA41157C263FB284006F1E29 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156E263FB284006F1E29 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		BA41157D263FB284006F1E29 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156F263FB284006F1E29 /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
+		BA41157E263FB284006F1E29 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411570263FB284006F1E29 /* PlayfairDisplay-Italic.ttf */; };
+		BA41157F263FB284006F1E29 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411571263FB284006F1E29 /* PlayfairDisplay-Regular.ttf */; };
+		BA411580263FB284006F1E29 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411572263FB284006F1E29 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		BA411581263FB284006F1E29 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411573263FB284006F1E29 /* PlayfairDisplay-Black.ttf */; };
+		BA411582263FB284006F1E29 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411574263FB284006F1E29 /* PlayfairDisplay-SemiBoldItalic.ttf */; };
+		BA411583263FB284006F1E29 /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411575263FB284006F1E29 /* PlayfairDisplay-MediumItalic.ttf */; };
+		BA411584263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411576263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf */; };
+		BA411585263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411577263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf */; };
+		BA411587264018BB006F1E29 /* SearchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA411586264018BA006F1E29 /* SearchScreenVC.swift */; };
 		BA942EBB263D450200C9A092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942EBA263D450200C9A092 /* AppDelegate.swift */; };
 		BA942EBD263D450200C9A092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942EBC263D450200C9A092 /* SceneDelegate.swift */; };
 		BA942EBF263D450200C9A092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942EBE263D450200C9A092 /* ViewController.swift */; };
@@ -36,20 +51,8 @@
 		BA942F0F263D608900C9A092 /* LoginseenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F0E263D608900C9A092 /* LoginseenVC.swift */; };
 		BA942F11263D6A2300C9A092 /* RegistartionseenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F10263D6A2300C9A092 /* RegistartionseenVC.swift */; };
 		BA942F13263D6E4500C9A092 /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA942F12263D6E4500C9A092 /* DashBoard.storyboard */; };
-		BA942F21263D70B100C9A092 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F15263D70B000C9A092 /* PlayfairDisplay-Bold.ttf */; };
-		BA942F22263D70B100C9A092 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F16263D70B000C9A092 /* PlayfairDisplay-SemiBold.ttf */; };
-		BA942F23263D70B100C9A092 /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F17263D70B000C9A092 /* PlayfairDisplay-Medium.ttf */; };
-		BA942F24263D70B100C9A092 /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F18263D70B000C9A092 /* PlayfairDisplay-BoldItalic.ttf */; };
-		BA942F25263D70B100C9A092 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F19263D70B000C9A092 /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
-		BA942F26263D70B100C9A092 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F1A263D70B000C9A092 /* PlayfairDisplay-Italic.ttf */; };
-		BA942F27263D70B100C9A092 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F1B263D70B000C9A092 /* PlayfairDisplay-Regular.ttf */; };
-		BA942F28263D70B100C9A092 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F1C263D70B000C9A092 /* PlayfairDisplay-Black.ttf */; };
-		BA942F29263D70B100C9A092 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F1D263D70B000C9A092 /* PlayfairDisplay-SemiBoldItalic.ttf */; };
-		BA942F2A263D70B100C9A092 /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F1E263D70B000C9A092 /* PlayfairDisplay-MediumItalic.ttf */; };
-		BA942F2B263D70B100C9A092 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F1F263D70B000C9A092 /* PlayfairDisplay-BlackItalic.ttf */; };
-		BA942F2C263D70B100C9A092 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA942F20263D70B000C9A092 /* PlayfairDisplay-ExtraBold.ttf */; };
 		BA942F30263D741700C9A092 /* HomeseenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F2F263D741700C9A092 /* HomeseenVC.swift */; };
-		BA942F32263D743700C9A092 /* SwitchSeenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F31263D743700C9A092 /* SwitchSeenVC.swift */; };
+		BA942F32263D743700C9A092 /* BookMarkSeenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F31263D743700C9A092 /* BookMarkSeenVC.swift */; };
 		BA942F34263D745700C9A092 /* AccountSeenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F33263D745700C9A092 /* AccountSeenVC.swift */; };
 		BA942F36263D748300C9A092 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942F35263D748300C9A092 /* TabBarVC.swift */; };
 		CE847B3EE8FCEAF21DF78BC9 /* Pods_RealEstateShorts_RealEstateShortsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507787DB5360B4D4697C768E /* Pods_RealEstateShorts_RealEstateShortsUITests.framework */; };
@@ -79,6 +82,21 @@
 		6813D18345370A77099FD3F8 /* Pods-RealEstateShortsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateShortsTests.release.xcconfig"; path = "Target Support Files/Pods-RealEstateShortsTests/Pods-RealEstateShortsTests.release.xcconfig"; sourceTree = "<group>"; };
 		75EA760BD8503FA8882BCAE6 /* Pods_RealEstateShorts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstateShorts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED346847F1D76ED8CB6C0F3 /* Pods-RealEstateShorts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateShorts.release.xcconfig"; path = "Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts.release.xcconfig"; sourceTree = "<group>"; };
+		BA41156A263FB284006F1E29 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		BA41156B263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA41156C263FB284006F1E29 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		BA41156D263FB284006F1E29 /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BA41156E263FB284006F1E29 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		BA41156F263FB284006F1E29 /* PlayfairDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BA411570263FB284006F1E29 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		BA411571263FB284006F1E29 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		BA411572263FB284006F1E29 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		BA411573263FB284006F1E29 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
+		BA411574263FB284006F1E29 /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		BA411575263FB284006F1E29 /* PlayfairDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BA411576263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BA411577263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BA411586264018BA006F1E29 /* SearchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenVC.swift; sourceTree = "<group>"; };
 		BA942EB7263D450200C9A092 /* RealEstateShorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstateShorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA942EBA263D450200C9A092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA942EBC263D450200C9A092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,20 +130,8 @@
 		BA942F0E263D608900C9A092 /* LoginseenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginseenVC.swift; sourceTree = "<group>"; };
 		BA942F10263D6A2300C9A092 /* RegistartionseenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistartionseenVC.swift; sourceTree = "<group>"; };
 		BA942F12263D6E4500C9A092 /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
-		BA942F15263D70B000C9A092 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
-		BA942F16263D70B000C9A092 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
-		BA942F17263D70B000C9A092 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
-		BA942F18263D70B000C9A092 /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
-		BA942F19263D70B000C9A092 /* PlayfairDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		BA942F1A263D70B000C9A092 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
-		BA942F1B263D70B000C9A092 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
-		BA942F1C263D70B000C9A092 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
-		BA942F1D263D70B000C9A092 /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		BA942F1E263D70B000C9A092 /* PlayfairDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
-		BA942F1F263D70B000C9A092 /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
-		BA942F20263D70B000C9A092 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
 		BA942F2F263D741700C9A092 /* HomeseenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeseenVC.swift; sourceTree = "<group>"; };
-		BA942F31263D743700C9A092 /* SwitchSeenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchSeenVC.swift; sourceTree = "<group>"; };
+		BA942F31263D743700C9A092 /* BookMarkSeenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkSeenVC.swift; sourceTree = "<group>"; };
 		BA942F33263D745700C9A092 /* AccountSeenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSeenVC.swift; sourceTree = "<group>"; };
 		BA942F35263D748300C9A092 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CCD7CAEC9AF45BB7F691AE01 /* Pods-RealEstateShorts-RealEstateShortsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateShorts-RealEstateShortsUITests.debug.xcconfig"; path = "Target Support Files/Pods-RealEstateShorts-RealEstateShortsUITests/Pods-RealEstateShorts-RealEstateShortsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +167,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA411569263FB284006F1E29 /* PlayFairDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				BA41156A263FB284006F1E29 /* PlayfairDisplay-Bold.ttf */,
+				BA41156B263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf */,
+				BA41156C263FB284006F1E29 /* PlayfairDisplay-Medium.ttf */,
+				BA41156D263FB284006F1E29 /* PlayfairDisplay-BoldItalic.ttf */,
+				BA41156E263FB284006F1E29 /* PlayfairDisplay-VariableFont_wght.ttf */,
+				BA41156F263FB284006F1E29 /* PlayfairDisplay-ExtraBoldItalic.ttf */,
+				BA411570263FB284006F1E29 /* PlayfairDisplay-Italic.ttf */,
+				BA411571263FB284006F1E29 /* PlayfairDisplay-Regular.ttf */,
+				BA411572263FB284006F1E29 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				BA411573263FB284006F1E29 /* PlayfairDisplay-Black.ttf */,
+				BA411574263FB284006F1E29 /* PlayfairDisplay-SemiBoldItalic.ttf */,
+				BA411575263FB284006F1E29 /* PlayfairDisplay-MediumItalic.ttf */,
+				BA411576263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf */,
+				BA411577263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf */,
+			);
+			path = PlayFairDisplay;
+			sourceTree = "<group>";
+		};
 		BA942EAE263D450100C9A092 = {
 			isa = PBXGroup;
 			children = (
@@ -232,8 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				BA942EF6263D59E800C9A092 /* static2 */,
-				BA942F14263D70B000C9A092 /* static */,
 				BA942EF3263D523A00C9A092 /* ViewAnimation.swift */,
+				BA411569263FB284006F1E29 /* PlayFairDisplay */,
 			);
 			path = UIAnmation;
 			sourceTree = "<group>";
@@ -254,26 +281,6 @@
 			path = static2;
 			sourceTree = "<group>";
 		};
-		BA942F14263D70B000C9A092 /* static */ = {
-			isa = PBXGroup;
-			children = (
-				BA942F15263D70B000C9A092 /* PlayfairDisplay-Bold.ttf */,
-				BA942F16263D70B000C9A092 /* PlayfairDisplay-SemiBold.ttf */,
-				BA942F17263D70B000C9A092 /* PlayfairDisplay-Medium.ttf */,
-				BA942F18263D70B000C9A092 /* PlayfairDisplay-BoldItalic.ttf */,
-				BA942F19263D70B000C9A092 /* PlayfairDisplay-ExtraBoldItalic.ttf */,
-				BA942F1A263D70B000C9A092 /* PlayfairDisplay-Italic.ttf */,
-				BA942F1B263D70B000C9A092 /* PlayfairDisplay-Regular.ttf */,
-				BA942F1C263D70B000C9A092 /* PlayfairDisplay-Black.ttf */,
-				BA942F1D263D70B000C9A092 /* PlayfairDisplay-SemiBoldItalic.ttf */,
-				BA942F1E263D70B000C9A092 /* PlayfairDisplay-MediumItalic.ttf */,
-				BA942F1F263D70B000C9A092 /* PlayfairDisplay-BlackItalic.ttf */,
-				BA942F20263D70B000C9A092 /* PlayfairDisplay-ExtraBold.ttf */,
-			);
-			name = static;
-			path = ../../../../../Downloads/Playfair_Display/static;
-			sourceTree = "<group>";
-		};
 		BA942F2D263D73E700C9A092 /* Auth seen */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,9 +299,10 @@
 			isa = PBXGroup;
 			children = (
 				BA942F2F263D741700C9A092 /* HomeseenVC.swift */,
-				BA942F31263D743700C9A092 /* SwitchSeenVC.swift */,
+				BA942F31263D743700C9A092 /* BookMarkSeenVC.swift */,
 				BA942F33263D745700C9A092 /* AccountSeenVC.swift */,
 				BA942F35263D748300C9A092 /* TabBarVC.swift */,
+				BA411586264018BA006F1E29 /* SearchScreenVC.swift */,
 			);
 			path = "DashBoard seen";
 			sourceTree = "<group>";
@@ -430,29 +438,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA942F27263D70B100C9A092 /* PlayfairDisplay-Regular.ttf in Resources */,
-				BA942F2B263D70B100C9A092 /* PlayfairDisplay-BlackItalic.ttf in Resources */,
 				BA942F02263D59E900C9A092 /* Sora-Bold.ttf in Resources */,
 				BA942F07263D59E900C9A092 /* Sora-ExtraLight.ttf in Resources */,
-				BA942F24263D70B100C9A092 /* PlayfairDisplay-BoldItalic.ttf in Resources */,
-				BA942F23263D70B100C9A092 /* PlayfairDisplay-Medium.ttf in Resources */,
-				BA942F22263D70B100C9A092 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				BA41157B263FB284006F1E29 /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				BA41157A263FB284006F1E29 /* PlayfairDisplay-Medium.ttf in Resources */,
+				BA41157C263FB284006F1E29 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				BA411581263FB284006F1E29 /* PlayfairDisplay-Black.ttf in Resources */,
+				BA411579263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				BA411584263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				BA411583263FB284006F1E29 /* PlayfairDisplay-MediumItalic.ttf in Resources */,
 				BA942F06263D59E900C9A092 /* Sora-SemiBold.ttf in Resources */,
 				BA942ECA263D450B00C9A092 /* LaunchScreen.storyboard in Resources */,
-				BA942F28263D70B100C9A092 /* PlayfairDisplay-Black.ttf in Resources */,
+				BA41157F263FB284006F1E29 /* PlayfairDisplay-Regular.ttf in Resources */,
+				BA41157D263FB284006F1E29 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
+				BA411585263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
 				BA942EC7263D450B00C9A092 /* Assets.xcassets in Resources */,
 				BA942EFF263D59E900C9A092 /* Sora-VariableFont_wght.ttf in Resources */,
 				BA942F03263D59E900C9A092 /* Sora-Light.ttf in Resources */,
+				BA411582263FB284006F1E29 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
 				BA942EC2263D450200C9A092 /* Main.storyboard in Resources */,
-				BA942F25263D70B100C9A092 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
-				BA942F29263D70B100C9A092 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
-				BA942F21263D70B100C9A092 /* PlayfairDisplay-Bold.ttf in Resources */,
-				BA942F2C263D70B100C9A092 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+				BA411580263FB284006F1E29 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				BA411578263FB284006F1E29 /* PlayfairDisplay-Bold.ttf in Resources */,
 				BA942F05263D59E900C9A092 /* Sora-Medium.ttf in Resources */,
+				BA41157E263FB284006F1E29 /* PlayfairDisplay-Italic.ttf in Resources */,
 				BA942F00263D59E900C9A092 /* Sora-Thin.ttf in Resources */,
-				BA942F2A263D70B100C9A092 /* PlayfairDisplay-MediumItalic.ttf in Resources */,
 				BA942F04263D59E900C9A092 /* Sora-Regular.ttf in Resources */,
-				BA942F26263D70B100C9A092 /* PlayfairDisplay-Italic.ttf in Resources */,
 				BA942F13263D6E4500C9A092 /* DashBoard.storyboard in Resources */,
 				BA942F01263D59E900C9A092 /* Sora-ExtraBold.ttf in Resources */,
 			);
@@ -589,10 +599,11 @@
 				BA942F09263D5C3F00C9A092 /* GuideSeenOneVC.swift in Sources */,
 				BA942EBB263D450200C9A092 /* AppDelegate.swift in Sources */,
 				BA942EC5263D450200C9A092 /* RealEstateShorts.xcdatamodeld in Sources */,
+				BA411587264018BB006F1E29 /* SearchScreenVC.swift in Sources */,
 				BA942F11263D6A2300C9A092 /* RegistartionseenVC.swift in Sources */,
 				BA942F0B263D5D0400C9A092 /* GuideSeenTwoVC.swift in Sources */,
 				BA942F34263D745700C9A092 /* AccountSeenVC.swift in Sources */,
-				BA942F32263D743700C9A092 /* SwitchSeenVC.swift in Sources */,
+				BA942F32263D743700C9A092 /* BookMarkSeenVC.swift in Sources */,
 				BA942EBD263D450200C9A092 /* SceneDelegate.swift in Sources */,
 				BA942EEF263D460A00C9A092 /* LounchScreenVC.swift in Sources */,
 				BA942F0D263D5F0300C9A092 /* GuideSeenThreeVC.swift in Sources */,

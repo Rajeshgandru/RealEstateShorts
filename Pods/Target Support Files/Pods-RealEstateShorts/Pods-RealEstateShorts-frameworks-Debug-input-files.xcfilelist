@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework
 ${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
