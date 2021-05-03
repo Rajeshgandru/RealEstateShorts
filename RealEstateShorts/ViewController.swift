@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
 //  RealEstateShorts
-//
 //  Created by rajesh gandru on 01/05/21.
-//
+
 
 import UIKit
 
