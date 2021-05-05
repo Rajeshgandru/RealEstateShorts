@@ -7,70 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		089ECDBB80A62980053DDF10237C0B12 /* Pods-RealEstateShorts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DA4E73A3174E7703105C69A1200D85 /* Pods-RealEstateShorts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10CC0DED42AC8D413BCA321D4A72C415 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA07F0E5A9AEDC9567266D6692B0CD7 /* UITextField+fixCaretPosition.swift */; };
+		049FC8D781A7ECAED15F25718502D54E /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F054E57788D70FC48276C8E4937E3D4 /* CosmosAccessibility.swift */; };
+		05DFD786F217BD0DFBFB5F57D80236A5 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF471C1B3464F6427DEBD65B2A4B5 /* CosmosTouch.swift */; };
+		10A44B18B300E2B0BF5BF88F6F2E585F /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98595388DA5D18E6D8228E06908E764 /* CosmosRating.swift */; };
+		10CC0DED42AC8D413BCA321D4A72C415 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951BE76D81A24C584FCF7053411A5945 /* UITextField+fixCaretPosition.swift */; };
+		16072305A90E4C0F1EBA96D14DAB0A89 /* Pods-RealEstateShorts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F509D0649F06CF70974408EB77010 /* Pods-RealEstateShorts-dummy.m */; };
+		2FADA7115AEFDCC59593DD4201572539 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659FA14797560B6484B262A008FC3731 /* CosmosLayers.swift */; };
+		3177C143718A4CDC63DAA6C5059C01BB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B230607F25968AF1F5D270521890BB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m */; };
 		326E51DD1E7BEF1CDFA1E6CCF8B4D133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		38E2597D8D0DCE44C7259AEC95CE9DCF /* Pods-RealEstateShortsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F00647ACB7F1CA7189FA3D36AE5749 /* Pods-RealEstateShortsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BC9C172E72C5DF2807BFA9E078C1A6A /* Pods-RealEstateShortsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F0613DBE552F652B8D4E34E67D8413 /* Pods-RealEstateShortsTests-dummy.m */; };
-		3F382618063FE40A205947DCBF27959C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1D0B512D52E0C1A3229868DFEAA13 /* SkyFloatingLabelTextField-dummy.m */; };
-		3FB533600F0CD6A1BB8CE8F7DE98294B /* ImageSlideshowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B6438FB4DAE4D733F33721A6E3066 /* ImageSlideshowItem.swift */; };
-		411493B2202223EBDA15B0262FEAAFAB /* Bundle+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87B025098A9E97EF0F0C81F1ADDF75 /* Bundle+Module.swift */; };
-		45A6D7312034B7F973524578C6A76339 /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2BED4F7F527A78509408B50EB84797 /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DB642303FD069BF6458764211FBAB91 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD9B5B0D177C876F51F6EEAC61A415 /* ZoomAnimatedTransitioning.swift */; };
-		58941AA633F3E524EB2E3725630DD9BD /* PageIndicatorPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9E88B73F80FBF010CEEB430DB148A /* PageIndicatorPosition.swift */; };
-		685AF185BC4DAB257B4F15C16A89102A /* Pods-RealEstateShorts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F509D0649F06CF70974408EB77010 /* Pods-RealEstateShorts-dummy.m */; };
-		74F4CAAE11862825CE41B2BD48650DAC /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FD2645CBA102CB943051FC8BAAC42 /* PageIndicator.swift */; };
-		80C9832ED9404C30CCBACE63EB8BE3C7 /* InputSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1CA5E933B6B1A5BA21E7CB9A9F7D5B /* InputSource.swift */; };
-		929851052C71A2D361EF36EA06000782 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098CCE558B0893109EC90817DC8E0D7 /* ActivityIndicator.swift */; };
-		953E65E792A8C765FD478A793399C3B4 /* ic_cross_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9CA255B2D83751094282B6A068532 /* ic_cross_white@2x.png */; };
-		9B11D46D43CB163BF7E83DAE35868DA4 /* ImageSlideshow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B70F68DB200B95FCA2AB66B990781 /* ImageSlideshow-dummy.m */; };
-		A00B6A6CAEDDCA61FF19B88F06C818DB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B230607F25968AF1F5D270521890BB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m */; };
-		B04CA28F483FD8C3CE24973E08CA3E81 /* ImageSlideshow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5B2B8CD8E7A28824DE0ECFA8C0F76D /* ImageSlideshow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B09FEC0B831B6F4E6D415077BF437A2A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F50B93FCE83514338C0451CA56309 /* SkyFloatingLabelTextField.swift */; };
+		3C8018B392AF82EB88A65DD64CF1DE88 /* Pods-RealEstateShorts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DA4E73A3174E7703105C69A1200D85 /* Pods-RealEstateShorts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F382618063FE40A205947DCBF27959C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60836C554D365AA144FA566D05E1B819 /* SkyFloatingLabelTextField-dummy.m */; };
+		3FB533600F0CD6A1BB8CE8F7DE98294B /* ImageSlideshowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A5003D5EB5D2FDC63963A7844349F5 /* ImageSlideshowItem.swift */; };
+		411493B2202223EBDA15B0262FEAAFAB /* Bundle+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE45ACA0CBE928AED899DE01B31C5C /* Bundle+Module.swift */; };
+		41E5B21F4758B2411A95A7C72523536D /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831474A8A27829767E4DBD2CD04E35F /* CosmosView.swift */; };
+		4221AB8F56B1444AE176F2B13F81C557 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBBDED5BD20B6DDBBA91DE0E1EA6A5 /* StarLayer.swift */; };
+		4404A9C8152865C62A5B59B88640811C /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72316C86ABC8FDFA75859B72CBADEB81 /* CosmosSize.swift */; };
+		4DB642303FD069BF6458764211FBAB91 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3A93489330FF6651ACA3D219E6F56 /* ZoomAnimatedTransitioning.swift */; };
+		58941AA633F3E524EB2E3725630DD9BD /* PageIndicatorPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAA91B3D1825EE4191BEB029FA8DA8 /* PageIndicatorPosition.swift */; };
+		5C7B76FBAD8574062F60041B012FE052 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C955B39EF86D58ADCECC1092DB115 /* CosmosTouchTarget.swift */; };
+		5F5461ACBBD2C5FF8184A9407C42D829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61857850A19756A357AD6696D42E69A4 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FE07226BFFFEA9826C3874F0CEEE5 /* RightToLeft.swift */; };
+		74F4CAAE11862825CE41B2BD48650DAC /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FC46239AF0A142475E4AB7702AD02 /* PageIndicator.swift */; };
+		80C9832ED9404C30CCBACE63EB8BE3C7 /* InputSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47E268DC9509CD201002354EE14381 /* InputSource.swift */; };
+		8C0722F4775273993DD0A0643B25F637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		929851052C71A2D361EF36EA06000782 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594A376C1E450B23125451FF81643B6E /* ActivityIndicator.swift */; };
+		953E65E792A8C765FD478A793399C3B4 /* ic_cross_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 510EB26125BB5EC88EB1C67C8AD4ABE1 /* ic_cross_white@2x.png */; };
+		9B11D46D43CB163BF7E83DAE35868DA4 /* ImageSlideshow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7BD0D655270C77D0666AE0D2A5C2A5 /* ImageSlideshow-dummy.m */; };
+		9D60235277EEB2A0A45939E8F09A7D71 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AED21CA8DDBD6801392FF5747B37DD86 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DAE5B261F8CDE268794A1B7B06F56 /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1CB5BFBC83EB9DEC474AB3538018D /* CosmosText.swift */; };
+		B04CA28F483FD8C3CE24973E08CA3E81 /* ImageSlideshow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 794C4B88A1EA1C37300FF7D89383E085 /* ImageSlideshow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B09FEC0B831B6F4E6D415077BF437A2A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916C6D1B73E23B6DE4CC326BF1370F35 /* SkyFloatingLabelTextField.swift */; };
 		B0E156222C736D564F32E80DFF538144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B0FBA1361925CA393897E7542FDEC2A8 /* ic_cross_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8B3996535F6C85D91E83EFC0C6E2E9 /* ic_cross_white@3x.png */; };
-		C173E2426AB6F1841BC946DCBCC83707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CEAB378498A2FB2854FB35B044AA9045 /* UIImage+AspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16F4E6FD7F4622BB4EC982E9934C78 /* UIImage+AspectFit.swift */; };
+		B0FBA1361925CA393897E7542FDEC2A8 /* ic_cross_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DB6A11663385633BC5185F6F682550 /* ic_cross_white@3x.png */; };
+		B594E04185C4C7522C612C631B8AD97A /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6DE6407A75AEE55F47443AE976DD9 /* Cosmos-dummy.m */; };
+		BD11644704411365AF68FCAB0111D9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0D5F472F17B5A0F9824C362F35A7132 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888244583A95FCFFD0D64133185F7544 /* CosmosLocalizedRating.swift */; };
+		CEAB378498A2FB2854FB35B044AA9045 /* UIImage+AspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD345141EC4EF240C8086D93330CF86 /* UIImage+AspectFit.swift */; };
 		D64FD4BC807FA06728EC64DEE33446F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D6560C23E0F6A5F13CE2F4C2A3774A73 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F835EB2EEE47F4DCA4D5109296A2D8D3 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA31781C00F6AF610FC11B64C77EEC86 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBE1A10E037BB80DE830AE849F5F68 /* SwiftSupport.swift */; };
-		EE63B846EDD498D4335668FFD70F3F25 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855DCAAC4BFAAE6B83DB4DC9482AB323 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		F1C4D41F77E5D3A6CF39EBADB5AE0AB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F88D01943135AD10755532B87F59426D /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46E59D9571C55B0239615DA9D7A584 /* ImageSlideshow.swift */; };
-		FCFA3362A8102C423357194A0467D6B6 /* FullScreenSlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0CE1FFC5D14C5BD8AA03E9902D46B /* FullScreenSlideshowViewController.swift */; };
-		FF9DB515D08214CD5C6E45E1F6D1D80D /* UIImageView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2F555988A77CF1E395E0BB869DED1 /* UIImageView+Tools.swift */; };
+		D6560C23E0F6A5F13CE2F4C2A3774A73 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A33717F53323DFC8621FC498DFEFE75 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA31781C00F6AF610FC11B64C77EEC86 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6CACEC77E928EFCC08928519DFCEF4 /* SwiftSupport.swift */; };
+		DF41BD393DEC0DED38E58FCAD2EBA45B /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2BED4F7F527A78509408B50EB84797 /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0FD27E2F7F5C05D3390126C7DF35EA6 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA08E1C2EFE6FF20451AB49383EEDDDB /* CosmosSettings.swift */; };
+		E189E12EEDDD9A1484602416282A19F9 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F5E2609F6D33A7AED0D6176C49AD3 /* CosmosLayerHelper.swift */; };
+		E776F53E707AD1ACF7223305E9EEDBFC /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38CA2F88033DA827BA295D172F928C5 /* CosmosDefaultSettings.swift */; };
+		E9A920FE6E5FC6F5F58B6F3AA9B3FDAF /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1544533808F9C023635051E697E259DD /* StarFillMode.swift */; };
+		EE63B846EDD498D4335668FFD70F3F25 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8022E9025A84D1A40C8FC5BF1B31175 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		F88D01943135AD10755532B87F59426D /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF89D25978BA9F09F85CA85436F3F4D /* ImageSlideshow.swift */; };
+		FCFA3362A8102C423357194A0467D6B6 /* FullScreenSlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA44FB45ED1141B718FAE62D86D69D /* FullScreenSlideshowViewController.swift */; };
+		FF9DB515D08214CD5C6E45E1F6D1D80D /* UIImageView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E28D434B40778145FB4A6A1C11F8A /* UIImageView+Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8985BE1B0D494148E1D48562D8CFDB80 /* PBXContainerItemProxy */ = {
+		3E4785D64BD1C88C60854B717F1341A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+		A3ADCAE42037A30166661FF65EABB11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+		B4F26D65E9169D17A7338768BC871FFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
 			remoteInfo = SkyFloatingLabelTextField;
 		};
-		8C10D7E85106836BEDAA0FEA5C480596 /* PBXContainerItemProxy */ = {
+		B9917E858AF86536189DD328864BF9CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B2F46A67275CC5973EE13076CD708247;
 			remoteInfo = ImageSlideshow;
 		};
-		C14B968A84AE4FA88AC791375A26C686 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
-			remoteInfo = SkyFloatingLabelTextField;
-		};
-		FBA7C9052B952A75D923C9CBBFF8F69E /* PBXContainerItemProxy */ = {
+		CBE6399E05B78A4E1CE0351EA5B075B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6804338700CDD11A99D5DED0103F32F9;
 			remoteInfo = "Pods-RealEstateShorts";
 		};
-		FC597E0068D6EFBEE5B999156A9AD393 /* PBXContainerItemProxy */ = {
+		F4E5979F4630729CA90453FCDED6DAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		FB7000686FAE46FEFACDAF32C3A8BAA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -80,70 +112,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022F9882106923E58FC8441400DC3F34 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D18A0B594F0FA065C8D5368B05018B /* Pods-RealEstateShorts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealEstateShorts-acknowledgements.plist"; sourceTree = "<group>"; };
-		1098CCE558B0893109EC90817DC8E0D7 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = ImageSlideshow/Classes/Core/ActivityIndicator.swift; sourceTree = "<group>"; };
-		15C9E88B73F80FBF010CEEB430DB148A /* PageIndicatorPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicatorPosition.swift; path = ImageSlideshow/Classes/Core/PageIndicatorPosition.swift; sourceTree = "<group>"; };
-		18A0CE1FFC5D14C5BD8AA03E9902D46B /* FullScreenSlideshowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullScreenSlideshowViewController.swift; path = ImageSlideshow/Classes/Core/FullScreenSlideshowViewController.swift; sourceTree = "<group>"; };
+		0AD345141EC4EF240C8086D93330CF86 /* UIImage+AspectFit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AspectFit.swift"; path = "ImageSlideshow/Classes/Core/UIImage+AspectFit.swift"; sourceTree = "<group>"; };
+		1544533808F9C023635051E697E259DD /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		1679AA5DF669DE112E30837CB52EC113 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		2A33717F53323DFC8621FC498DFEFE75 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		2A7F509D0649F06CF70974408EB77010 /* Pods-RealEstateShorts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealEstateShorts-dummy.m"; sourceTree = "<group>"; };
-		2FBBE1A10E037BB80DE830AE849F5F68 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = ImageSlideshow/Classes/Core/SwiftSupport.swift; sourceTree = "<group>"; };
 		32D6F19CEF2ECF1E31874D54B1C63A73 /* Pods-RealEstateShorts-RealEstateShortsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealEstateShorts-RealEstateShortsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33A5003D5EB5D2FDC63963A7844349F5 /* ImageSlideshowItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSlideshowItem.swift; path = ImageSlideshow/Classes/Core/ImageSlideshowItem.swift; sourceTree = "<group>"; };
 		34973D0840EA6666794EBF53760316EF /* Pods-RealEstateShortsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealEstateShortsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35CAA91B3D1825EE4191BEB029FA8DA8 /* PageIndicatorPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicatorPosition.swift; path = ImageSlideshow/Classes/Core/PageIndicatorPosition.swift; sourceTree = "<group>"; };
 		379F32E43759F1820EF7E5ED1F722F1A /* Pods-RealEstateShorts-RealEstateShortsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealEstateShorts-RealEstateShortsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A5DDF9283577A5B828F193F57672F81 /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
 		3DD42408E59728753AE81CDDBB5D2967 /* Pods-RealEstateShorts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealEstateShorts.debug.xcconfig"; sourceTree = "<group>"; };
-		3F9F50B93FCE83514338C0451CA56309 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		428B35B07412D7844329A0982CA45A56 /* ImageSlideshow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.release.xcconfig; sourceTree = "<group>"; };
+		479F5E2609F6D33A7AED0D6176C49AD3 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		481AF2BBB4C06AEC1EA2D5C6CA3AA3BA /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
 		4CB3D5DDA0EA24F278754A25B42C4591 /* Pods-RealEstateShorts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RealEstateShorts.modulemap"; sourceTree = "<group>"; };
 		4F2BED4F7F527A78509408B50EB84797 /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h"; sourceTree = "<group>"; };
+		510EB26125BB5EC88EB1C67C8AD4ABE1 /* ic_cross_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_cross_white@2x.png"; path = "ImageSlideshow/Assets/ic_cross_white@2x.png"; sourceTree = "<group>"; };
 		53DA4E73A3174E7703105C69A1200D85 /* Pods-RealEstateShorts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealEstateShorts-umbrella.h"; sourceTree = "<group>"; };
+		552FC46239AF0A142475E4AB7702AD02 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicator.swift; path = ImageSlideshow/Classes/Core/PageIndicator.swift; sourceTree = "<group>"; };
 		575B2B13DBE572092D9EE82EE89880A5 /* Pods-RealEstateShortsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealEstateShortsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A1B70F68DB200B95FCA2AB66B990781 /* ImageSlideshow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageSlideshow-dummy.m"; sourceTree = "<group>"; };
-		5C16A7079459E2A55C567FBDF76375A4 /* ImageSlideshow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSlideshow-prefix.pch"; sourceTree = "<group>"; };
+		5831474A8A27829767E4DBD2CD04E35F /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		58D1CB5BFBC83EB9DEC474AB3538018D /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		594A376C1E450B23125451FF81643B6E /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = ImageSlideshow/Classes/Core/ActivityIndicator.swift; sourceTree = "<group>"; };
+		5D47E268DC9509CD201002354EE14381 /* InputSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputSource.swift; path = ImageSlideshow/Classes/Core/InputSource.swift; sourceTree = "<group>"; };
+		5F9E28D434B40778145FB4A6A1C11F8A /* UIImageView+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Tools.swift"; path = "ImageSlideshow/Classes/Core/UIImageView+Tools.swift"; sourceTree = "<group>"; };
+		60836C554D365AA144FA566D05E1B819 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		612757ECEE1F9DE76679D56B2F55922F /* Pods-RealEstateShorts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealEstateShorts-Info.plist"; sourceTree = "<group>"; };
+		659FA14797560B6484B262A008FC3731 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
 		68A7F9EB0B1CB5F2BE99E9E52E968411 /* Pods_RealEstateShorts_RealEstateShortsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RealEstateShorts_RealEstateShortsUITests.framework; path = "Pods-RealEstateShorts-RealEstateShortsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCD1937162DDE6A8DE474C93607BA61 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
 		6E18748F13E33D42F932873DDEFD5E79 /* Pods-RealEstateShortsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealEstateShortsTests-Info.plist"; sourceTree = "<group>"; };
+		72316C86ABC8FDFA75859B72CBADEB81 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		72D6DE6407A75AEE55F47443AE976DD9 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75EA44FB45ED1141B718FAE62D86D69D /* FullScreenSlideshowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullScreenSlideshowViewController.swift; path = ImageSlideshow/Classes/Core/FullScreenSlideshowViewController.swift; sourceTree = "<group>"; };
 		777CFFA7CB69BC6C7F4F782D85A8FFE6 /* Pods-RealEstateShortsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealEstateShortsTests.release.xcconfig"; sourceTree = "<group>"; };
-		7C87B025098A9E97EF0F0C81F1ADDF75 /* Bundle+Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Module.swift"; path = "ImageSlideshow/Classes/Core/Bundle+Module.swift"; sourceTree = "<group>"; };
+		794C4B88A1EA1C37300FF7D89383E085 /* ImageSlideshow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSlideshow-umbrella.h"; sourceTree = "<group>"; };
+		7A7BD0D655270C77D0666AE0D2A5C2A5 /* ImageSlideshow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageSlideshow-dummy.m"; sourceTree = "<group>"; };
 		7F6AD7C3A293EA7098D139B0A1249F56 /* Pods-RealEstateShorts-RealEstateShortsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealEstateShorts-RealEstateShortsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FA07F0E5A9AEDC9567266D6692B0CD7 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		81F0613DBE552F652B8D4E34E67D8413 /* Pods-RealEstateShortsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealEstateShortsTests-dummy.m"; sourceTree = "<group>"; };
-		82C60B3ACF7DA60A107DC216DAE30584 /* ImageSlideshow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageSlideshow.modulemap; sourceTree = "<group>"; };
 		835DBC7D8625AC9F5C823F98E322BA7B /* Pods_RealEstateShorts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RealEstateShorts.framework; path = "Pods-RealEstateShorts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8454D024606E5EA89A9F6F7F1C816397 /* Pods-RealEstateShorts-RealEstateShortsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealEstateShorts-RealEstateShortsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		855DCAAC4BFAAE6B83DB4DC9482AB323 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		8586CA8203ADCFBF196BD25D99DBAE27 /* Pods-RealEstateShortsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RealEstateShortsTests.modulemap"; sourceTree = "<group>"; };
-		89029934B2B1E5CEC271DD30FC9034B1 /* ImageSlideshow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.debug.xcconfig; sourceTree = "<group>"; };
-		8A5B2B8CD8E7A28824DE0ECFA8C0F76D /* ImageSlideshow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSlideshow-umbrella.h"; sourceTree = "<group>"; };
-		9AF91986BAADF185C35B9572C644DA50 /* ImageSlideshow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageSlideshow-Info.plist"; sourceTree = "<group>"; };
+		888244583A95FCFFD0D64133185F7544 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		8CDE45ACA0CBE928AED899DE01B31C5C /* Bundle+Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Module.swift"; path = "ImageSlideshow/Classes/Core/Bundle+Module.swift"; sourceTree = "<group>"; };
+		8F6CACEC77E928EFCC08928519DFCEF4 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = ImageSlideshow/Classes/Core/SwiftSupport.swift; sourceTree = "<group>"; };
+		916C6D1B73E23B6DE4CC326BF1370F35 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		92DB6A11663385633BC5185F6F682550 /* ic_cross_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_cross_white@3x.png"; path = "ImageSlideshow/Assets/ic_cross_white@3x.png"; sourceTree = "<group>"; };
+		951BE76D81A24C584FCF7053411A5945 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E46E59D9571C55B0239615DA9D7A584 /* ImageSlideshow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSlideshow.swift; path = ImageSlideshow/Classes/Core/ImageSlideshow.swift; sourceTree = "<group>"; };
-		A62219DB81AE5A9CCEFDE8860EA36C4E /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
-		ACC1E5FA997220EA4EFA67B22944E2F4 /* ImageSlideshow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.release.xcconfig; sourceTree = "<group>"; };
+		9DEC22F2FFADCC70775A1410F3D95FB6 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		9F054E57788D70FC48276C8E4937E3D4 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		A4E3A93489330FF6651ACA3D219E6F56 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomAnimatedTransitioning.swift; path = ImageSlideshow/Classes/Core/ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		AED21CA8DDBD6801392FF5747B37DD86 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		B5CBBDED5BD20B6DDBBA91DE0E1EA6A5 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
 		B6A168C857465C274C9706960552B2A1 /* Pods-RealEstateShortsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealEstateShortsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B803B62B2D94ECD06E65BD161DCCD1B5 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		B9E2785C5A1D6EFDC77E118AAD7F4761 /* ImageSlideshow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageSlideshow.modulemap; sourceTree = "<group>"; };
+		BA2F899C6C95074166ED7C5505EFE515 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		BD23197F8C211C5269417CF079BA45C3 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
+		BE1C955B39EF86D58ADCECC1092DB115 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
 		C1D78A7F43807F49FDB5B04DD9BD6AC7 /* ImageSlideshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageSlideshow.framework; path = ImageSlideshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C230AD433FDC3DE06E1EC0614F7D7E8D /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
-		CA1CA5E933B6B1A5BA21E7CB9A9F7D5B /* InputSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputSource.swift; path = ImageSlideshow/Classes/Core/InputSource.swift; sourceTree = "<group>"; };
-		CACD9B5B0D177C876F51F6EEAC61A415 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomAnimatedTransitioning.swift; path = ImageSlideshow/Classes/Core/ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
-		CBC1D0B512D52E0C1A3229868DFEAA13 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		CE16F4E6FD7F4622BB4EC982E9934C78 /* UIImage+AspectFit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AspectFit.swift"; path = "ImageSlideshow/Classes/Core/UIImage+AspectFit.swift"; sourceTree = "<group>"; };
-		CFF2F555988A77CF1E395E0BB869DED1 /* UIImageView+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Tools.swift"; path = "ImageSlideshow/Classes/Core/UIImageView+Tools.swift"; sourceTree = "<group>"; };
-		D0B9CA255B2D83751094282B6A068532 /* ic_cross_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_cross_white@2x.png"; path = "ImageSlideshow/Assets/ic_cross_white@2x.png"; sourceTree = "<group>"; };
+		C8022E9025A84D1A40C8FC5BF1B31175 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		C98595388DA5D18E6D8228E06908E764 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
 		D2AEF2A9B375C4AE155A3D908447CBA9 /* Pods-RealEstateShorts-RealEstateShortsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealEstateShorts-RealEstateShortsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75F2F45BC25398D0259E15D0E72A627 /* ImageSlideshow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.debug.xcconfig; sourceTree = "<group>"; };
+		D8C63674C751282370A75C3FF817C223 /* ImageSlideshow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageSlideshow-Info.plist"; sourceTree = "<group>"; };
 		D8F00647ACB7F1CA7189FA3D36AE5749 /* Pods-RealEstateShortsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealEstateShortsTests-umbrella.h"; sourceTree = "<group>"; };
 		D9B230607F25968AF1F5D270521890BB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m"; sourceTree = "<group>"; };
-		DA6FD2645CBA102CB943051FC8BAAC42 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicator.swift; path = ImageSlideshow/Classes/Core/PageIndicator.swift; sourceTree = "<group>"; };
-		DD7B6438FB4DAE4D733F33721A6E3066 /* ImageSlideshowItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSlideshowItem.swift; path = ImageSlideshow/Classes/Core/ImageSlideshowItem.swift; sourceTree = "<group>"; };
 		DE4D692B2EE5AD84DA5DA4457FFBCB2F /* Pods-RealEstateShorts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealEstateShorts-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE8B3996535F6C85D91E83EFC0C6E2E9 /* ic_cross_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_cross_white@3x.png"; path = "ImageSlideshow/Assets/ic_cross_white@3x.png"; sourceTree = "<group>"; };
 		E29FE12922BE8B34F339FD43E2C45A7F /* Pods-RealEstateShorts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealEstateShorts-frameworks.sh"; sourceTree = "<group>"; };
+		E38CA2F88033DA827BA295D172F928C5 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		E4DB88289E26CBB527DB7868E034092D /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
 		E73390505E2A107A17366114B64FA3EE /* Pods-RealEstateShorts-RealEstateShortsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealEstateShorts-RealEstateShortsUITests-Info.plist"; sourceTree = "<group>"; };
+		EA08E1C2EFE6FF20451AB49383EEDDDB /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
 		EA8455094D8D2DE0BE7184D184035FA5 /* Pods_RealEstateShortsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RealEstateShortsTests.framework; path = "Pods-RealEstateShortsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC639CE912A0D65B0D64B349C15074CF /* Pods-RealEstateShorts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealEstateShorts.release.xcconfig"; sourceTree = "<group>"; };
-		ECB044703671F0B08E7A3AF08AACCB3F /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
-		F835EB2EEE47F4DCA4D5109296A2D8D3 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		EDF89D25978BA9F09F85CA85436F3F4D /* ImageSlideshow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSlideshow.swift; path = ImageSlideshow/Classes/Core/ImageSlideshow.swift; sourceTree = "<group>"; };
+		F4856D92C382B90C042902724D43732F /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		F63FE07226BFFFEA9826C3874F0CEEE5 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		F65AF8FA00AD452E18EFB1542397DE5E /* ImageSlideshow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageSlideshow-prefix.pch"; sourceTree = "<group>"; };
 		F9E6DE31EA2D98DA8F2E1369A78E8652 /* Pods-RealEstateShorts-RealEstateShortsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RealEstateShorts-RealEstateShortsUITests.modulemap"; sourceTree = "<group>"; };
+		FACEF471C1B3464F6427DEBD65B2A4B5 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		FB6EA06D68EED662AF5AA0AC1807C6F3 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +218,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3211255DFCC6DA96919DC4B3E09EDF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0722F4775273993DD0A0643B25F637 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4854B81B04A8C97304CB44BCEA5AB031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5461ACBBD2C5FF8184A9407C42D829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E06CE943D32A4F746727C32B472177E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,25 +242,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AB37A201AFEADCBE1E05265C5D5DA86 /* Frameworks */ = {
+		FE1AF85FC1246D05E670ED0CE453B016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C173E2426AB6F1841BC946DCBCC83707 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5CFB03CB08818076160B685C80A8E8E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1C4D41F77E5D3A6CF39EBADB5AE0AB6 /* Foundation.framework in Frameworks */,
+				BD11644704411365AF68FCAB0111D9D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030AC4B2389DF201C89F7B717E48CFCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				510EB26125BB5EC88EB1C67C8AD4ABE1 /* ic_cross_white@2x.png */,
+				92DB6A11663385633BC5185F6F682550 /* ic_cross_white@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		0C59B53CD42F94AF018892200DD36FF8 /* Pods-RealEstateShorts-RealEstateShortsUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,54 +279,14 @@
 			path = "Target Support Files/Pods-RealEstateShorts-RealEstateShortsUITests";
 			sourceTree = "<group>";
 		};
-		241768DCDE1F4687E1B996C002B2596B /* SkyFloatingLabelTextField */ = {
+		3C08208D79B1B7AC9C1125BFF70107CE /* ImageSlideshow */ = {
 			isa = PBXGroup;
 			children = (
-				3F9F50B93FCE83514338C0451CA56309 /* SkyFloatingLabelTextField.swift */,
-				855DCAAC4BFAAE6B83DB4DC9482AB323 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				7FA07F0E5A9AEDC9567266D6692B0CD7 /* UITextField+fixCaretPosition.swift */,
-				E710DBD198D43781B9CE0FE98B1B9B19 /* Support Files */,
+				B61A220538331096903534A6F5738F7A /* Core */,
+				754FE698356A1C6A4303DC05E821A51D /* Support Files */,
 			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
-			sourceTree = "<group>";
-		};
-		2BB3636FA33C6EDAE0C0E0EE60235FC8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				1098CCE558B0893109EC90817DC8E0D7 /* ActivityIndicator.swift */,
-				7C87B025098A9E97EF0F0C81F1ADDF75 /* Bundle+Module.swift */,
-				18A0CE1FFC5D14C5BD8AA03E9902D46B /* FullScreenSlideshowViewController.swift */,
-				9E46E59D9571C55B0239615DA9D7A584 /* ImageSlideshow.swift */,
-				DD7B6438FB4DAE4D733F33721A6E3066 /* ImageSlideshowItem.swift */,
-				CA1CA5E933B6B1A5BA21E7CB9A9F7D5B /* InputSource.swift */,
-				DA6FD2645CBA102CB943051FC8BAAC42 /* PageIndicator.swift */,
-				15C9E88B73F80FBF010CEEB430DB148A /* PageIndicatorPosition.swift */,
-				2FBBE1A10E037BB80DE830AE849F5F68 /* SwiftSupport.swift */,
-				CE16F4E6FD7F4622BB4EC982E9934C78 /* UIImage+AspectFit.swift */,
-				CFF2F555988A77CF1E395E0BB869DED1 /* UIImageView+Tools.swift */,
-				CACD9B5B0D177C876F51F6EEAC61A415 /* ZoomAnimatedTransitioning.swift */,
-				2D1540F9062204FEEE2BEC03029A208D /* Resources */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		2D1540F9062204FEEE2BEC03029A208D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D0B9CA255B2D83751094282B6A068532 /* ic_cross_white@2x.png */,
-				DE8B3996535F6C85D91E83EFC0C6E2E9 /* ic_cross_white@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		47DAC765E7AEA2D3A3CEF2AFAAF98E22 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3D8D51784100BED18839DE5A054B38D /* ImageSlideshow */,
-				241768DCDE1F4687E1B996C002B2596B /* SkyFloatingLabelTextField */,
-			);
-			name = Pods;
+			name = ImageSlideshow;
+			path = ImageSlideshow;
 			sourceTree = "<group>";
 		};
 		572F4B60EFBF50CA6A0ED4412092CFFC /* Pods-RealEstateShorts */ = {
@@ -282,6 +314,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5E6E0740C545DF6D18A9ACCFB7E69CA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DB88289E26CBB527DB7868E034092D /* Cosmos.modulemap */,
+				72D6DE6407A75AEE55F47443AE976DD9 /* Cosmos-dummy.m */,
+				BA2F899C6C95074166ED7C5505EFE515 /* Cosmos-Info.plist */,
+				9DEC22F2FFADCC70775A1410F3D95FB6 /* Cosmos-prefix.pch */,
+				AED21CA8DDBD6801392FF5747B37DD86 /* Cosmos-umbrella.h */,
+				BD23197F8C211C5269417CF079BA45C3 /* Cosmos.debug.xcconfig */,
+				481AF2BBB4C06AEC1EA2D5C6CA3AA3BA /* Cosmos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		754FE698356A1C6A4303DC05E821A51D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2785C5A1D6EFDC77E118AAD7F4761 /* ImageSlideshow.modulemap */,
+				7A7BD0D655270C77D0666AE0D2A5C2A5 /* ImageSlideshow-dummy.m */,
+				D8C63674C751282370A75C3FF817C223 /* ImageSlideshow-Info.plist */,
+				F65AF8FA00AD452E18EFB1542397DE5E /* ImageSlideshow-prefix.pch */,
+				794C4B88A1EA1C37300FF7D89383E085 /* ImageSlideshow-umbrella.h */,
+				D75F2F45BC25398D0259E15D0E72A627 /* ImageSlideshow.debug.xcconfig */,
+				428B35B07412D7844329A0982CA45A56 /* ImageSlideshow.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImageSlideshow";
+			sourceTree = "<group>";
+		};
 		78F67A31CDE74BB70C38952B62725DF4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,16 +354,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		797144735C68B7F43ECAE026C44B4876 /* Products */ = {
+		7A2EE3EF1B0CFC33F90A23A58508DBAD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1D78A7F43807F49FDB5B04DD9BD6AC7 /* ImageSlideshow.framework */,
-				835DBC7D8625AC9F5C823F98E322BA7B /* Pods_RealEstateShorts.framework */,
-				68A7F9EB0B1CB5F2BE99E9E52E968411 /* Pods_RealEstateShorts_RealEstateShortsUITests.framework */,
-				EA8455094D8D2DE0BE7184D184035FA5 /* Pods_RealEstateShortsTests.framework */,
-				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+				FB6EA06D68EED662AF5AA0AC1807C6F3 /* SkyFloatingLabelTextField.modulemap */,
+				60836C554D365AA144FA566D05E1B819 /* SkyFloatingLabelTextField-dummy.m */,
+				F4856D92C382B90C042902724D43732F /* SkyFloatingLabelTextField-Info.plist */,
+				022F9882106923E58FC8441400DC3F34 /* SkyFloatingLabelTextField-prefix.pch */,
+				2A33717F53323DFC8621FC498DFEFE75 /* SkyFloatingLabelTextField-umbrella.h */,
+				6BCD1937162DDE6A8DE474C93607BA61 /* SkyFloatingLabelTextField.debug.xcconfig */,
+				1679AA5DF669DE112E30837CB52EC113 /* SkyFloatingLabelTextField.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
 			sourceTree = "<group>";
 		};
 		89F63A21CCAB704DE1C628DEB48173CD /* Pods-RealEstateShortsTests */ = {
@@ -320,19 +385,59 @@
 			path = "Target Support Files/Pods-RealEstateShortsTests";
 			sourceTree = "<group>";
 		};
-		C33F89AFB35CF84769EEC28277C01AB3 /* Support Files */ = {
+		A32A4680DA77FB83DF6D9CAEC03FB89B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82C60B3ACF7DA60A107DC216DAE30584 /* ImageSlideshow.modulemap */,
-				5A1B70F68DB200B95FCA2AB66B990781 /* ImageSlideshow-dummy.m */,
-				9AF91986BAADF185C35B9572C644DA50 /* ImageSlideshow-Info.plist */,
-				5C16A7079459E2A55C567FBDF76375A4 /* ImageSlideshow-prefix.pch */,
-				8A5B2B8CD8E7A28824DE0ECFA8C0F76D /* ImageSlideshow-umbrella.h */,
-				89029934B2B1E5CEC271DD30FC9034B1 /* ImageSlideshow.debug.xcconfig */,
-				ACC1E5FA997220EA4EFA67B22944E2F4 /* ImageSlideshow.release.xcconfig */,
+				DEA1BA2EE24994803B2D8854A3F1C984 /* Cosmos */,
+				3C08208D79B1B7AC9C1125BFF70107CE /* ImageSlideshow */,
+				A42FDB265047992AB7E7632CCF9A2482 /* SkyFloatingLabelTextField */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ImageSlideshow";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A42FDB265047992AB7E7632CCF9A2482 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				916C6D1B73E23B6DE4CC326BF1370F35 /* SkyFloatingLabelTextField.swift */,
+				C8022E9025A84D1A40C8FC5BF1B31175 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				951BE76D81A24C584FCF7053411A5945 /* UITextField+fixCaretPosition.swift */,
+				7A2EE3EF1B0CFC33F90A23A58508DBAD /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		AD7D991781BABA294D772ED070EB081B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
+				C1D78A7F43807F49FDB5B04DD9BD6AC7 /* ImageSlideshow.framework */,
+				835DBC7D8625AC9F5C823F98E322BA7B /* Pods_RealEstateShorts.framework */,
+				68A7F9EB0B1CB5F2BE99E9E52E968411 /* Pods_RealEstateShorts_RealEstateShortsUITests.framework */,
+				EA8455094D8D2DE0BE7184D184035FA5 /* Pods_RealEstateShortsTests.framework */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61A220538331096903534A6F5738F7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				594A376C1E450B23125451FF81643B6E /* ActivityIndicator.swift */,
+				8CDE45ACA0CBE928AED899DE01B31C5C /* Bundle+Module.swift */,
+				75EA44FB45ED1141B718FAE62D86D69D /* FullScreenSlideshowViewController.swift */,
+				EDF89D25978BA9F09F85CA85436F3F4D /* ImageSlideshow.swift */,
+				33A5003D5EB5D2FDC63963A7844349F5 /* ImageSlideshowItem.swift */,
+				5D47E268DC9509CD201002354EE14381 /* InputSource.swift */,
+				552FC46239AF0A142475E4AB7702AD02 /* PageIndicator.swift */,
+				35CAA91B3D1825EE4191BEB029FA8DA8 /* PageIndicatorPosition.swift */,
+				8F6CACEC77E928EFCC08928519DFCEF4 /* SwiftSupport.swift */,
+				0AD345141EC4EF240C8086D93330CF86 /* UIImage+AspectFit.swift */,
+				5F9E28D434B40778145FB4A6A1C11F8A /* UIImageView+Tools.swift */,
+				A4E3A93489330FF6651ACA3D219E6F56 /* ZoomAnimatedTransitioning.swift */,
+				030AC4B2389DF201C89F7B717E48CFCD /* Resources */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -340,8 +445,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				47DAC765E7AEA2D3A3CEF2AFAAF98E22 /* Pods */,
-				797144735C68B7F43ECAE026C44B4876 /* Products */,
+				A32A4680DA77FB83DF6D9CAEC03FB89B /* Pods */,
+				AD7D991781BABA294D772ED070EB081B /* Products */,
 				78F67A31CDE74BB70C38952B62725DF4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -354,29 +459,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E710DBD198D43781B9CE0FE98B1B9B19 /* Support Files */ = {
+		DEA1BA2EE24994803B2D8854A3F1C984 /* Cosmos */ = {
 			isa = PBXGroup;
 			children = (
-				B803B62B2D94ECD06E65BD161DCCD1B5 /* SkyFloatingLabelTextField.modulemap */,
-				CBC1D0B512D52E0C1A3229868DFEAA13 /* SkyFloatingLabelTextField-dummy.m */,
-				3A5DDF9283577A5B828F193F57672F81 /* SkyFloatingLabelTextField-Info.plist */,
-				C230AD433FDC3DE06E1EC0614F7D7E8D /* SkyFloatingLabelTextField-prefix.pch */,
-				F835EB2EEE47F4DCA4D5109296A2D8D3 /* SkyFloatingLabelTextField-umbrella.h */,
-				A62219DB81AE5A9CCEFDE8860EA36C4E /* SkyFloatingLabelTextField.debug.xcconfig */,
-				ECB044703671F0B08E7A3AF08AACCB3F /* SkyFloatingLabelTextField.release.xcconfig */,
+				9F054E57788D70FC48276C8E4937E3D4 /* CosmosAccessibility.swift */,
+				E38CA2F88033DA827BA295D172F928C5 /* CosmosDefaultSettings.swift */,
+				479F5E2609F6D33A7AED0D6176C49AD3 /* CosmosLayerHelper.swift */,
+				659FA14797560B6484B262A008FC3731 /* CosmosLayers.swift */,
+				888244583A95FCFFD0D64133185F7544 /* CosmosLocalizedRating.swift */,
+				C98595388DA5D18E6D8228E06908E764 /* CosmosRating.swift */,
+				EA08E1C2EFE6FF20451AB49383EEDDDB /* CosmosSettings.swift */,
+				72316C86ABC8FDFA75859B72CBADEB81 /* CosmosSize.swift */,
+				58D1CB5BFBC83EB9DEC474AB3538018D /* CosmosText.swift */,
+				FACEF471C1B3464F6427DEBD65B2A4B5 /* CosmosTouch.swift */,
+				BE1C955B39EF86D58ADCECC1092DB115 /* CosmosTouchTarget.swift */,
+				5831474A8A27829767E4DBD2CD04E35F /* CosmosView.swift */,
+				F63FE07226BFFFEA9826C3874F0CEEE5 /* RightToLeft.swift */,
+				1544533808F9C023635051E697E259DD /* StarFillMode.swift */,
+				B5CBBDED5BD20B6DDBBA91DE0E1EA6A5 /* StarLayer.swift */,
+				5E6E0740C545DF6D18A9ACCFB7E69CA9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		F3D8D51784100BED18839DE5A054B38D /* ImageSlideshow */ = {
-			isa = PBXGroup;
-			children = (
-				2BB3636FA33C6EDAE0C0E0EE60235FC8 /* Core */,
-				C33F89AFB35CF84769EEC28277C01AB3 /* Support Files */,
-			);
-			name = ImageSlideshow;
-			path = ImageSlideshow;
+			name = Cosmos;
+			path = Cosmos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,19 +494,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA57DD41EE3A71FC7FF35FBBBC293E45 /* Headers */ = {
+		666BD5415485F591165F17466763772C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A6D7312034B7F973524578C6A76339 /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h in Headers */,
+				3C8018B392AF82EB88A65DD64CF1DE88 /* Pods-RealEstateShorts-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC1E58F34C4DD02BF2B57474997D58B9 /* Headers */ = {
+		B322FEDA9FF4BA8B0BEC872F3EE3F648 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089ECDBB80A62980053DDF10237C0B12 /* Pods-RealEstateShorts-umbrella.h in Headers */,
+				9D60235277EEB2A0A45939E8F09A7D71 /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21528FFB6A01139E3843499EE92A3AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF41BD393DEC0DED38E58FCAD2EBA45B /* Pods-RealEstateShorts-RealEstateShortsUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,20 +537,39 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52F2FEF6A63FB935313B95EAAA8E9B94 /* Pods-RealEstateShorts-RealEstateShortsUITests */ = {
+		00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D352EDEE73EEEB3338D4A4298C9DD4A6 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts-RealEstateShortsUITests" */;
+			buildConfigurationList = 9C4761D1E5276039F76D9BA8BF0272D7 /* Build configuration list for PBXNativeTarget "Cosmos" */;
 			buildPhases = (
-				BA57DD41EE3A71FC7FF35FBBBC293E45 /* Headers */,
-				6385385D85981B7C9EB2975B10F5FA62 /* Sources */,
-				9AB37A201AFEADCBE1E05265C5D5DA86 /* Frameworks */,
-				044DC82C34C77EC96EF12097F6B0E392 /* Resources */,
+				B322FEDA9FF4BA8B0BEC872F3EE3F648 /* Headers */,
+				53D2AD99A3C2BFB2E1448B62E35F78AB /* Sources */,
+				FE1AF85FC1246D05E670ED0CE453B016 /* Frameworks */,
+				6571FF59854C9ED976246EA41FEA37C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				02204C478E7199C0452FD53AFF7DC582 /* PBXTargetDependency */,
-				FCCCDD0B6DBCAE1A45AAA3ED2D1CEAE4 /* PBXTargetDependency */,
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52F2FEF6A63FB935313B95EAAA8E9B94 /* Pods-RealEstateShorts-RealEstateShortsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB58DE8D5AE9A806AA0E150C692ADC0 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts-RealEstateShortsUITests" */;
+			buildPhases = (
+				D21528FFB6A01139E3843499EE92A3AE /* Headers */,
+				3B9939A4808EB6118FF91A52405ACE47 /* Sources */,
+				3211255DFCC6DA96919DC4B3E09EDF22 /* Frameworks */,
+				717271783DF82CA09B87CA393D39F74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931BF0EF35DBDF1452CFD6970BDEC535 /* PBXTargetDependency */,
+				8C5B876547CA1F2F1099999B33BCBEEE /* PBXTargetDependency */,
+				E267464D9357149D544F51D28EF87375 /* PBXTargetDependency */,
 			);
 			name = "Pods-RealEstateShorts-RealEstateShortsUITests";
 			productName = "Pods-RealEstateShorts-RealEstateShortsUITests";
@@ -447,18 +578,19 @@
 		};
 		6804338700CDD11A99D5DED0103F32F9 /* Pods-RealEstateShorts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90CB403E4B50D9391BC825DAA0AC2F89 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts" */;
+			buildConfigurationList = 1128C38BD1CE99E72D11F9241F1D8CD7 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts" */;
 			buildPhases = (
-				CC1E58F34C4DD02BF2B57474997D58B9 /* Headers */,
-				419BDD0333E4EFF6CD55AB604A709EC9 /* Sources */,
-				D5CFB03CB08818076160B685C80A8E8E /* Frameworks */,
-				A088658A4A7605AF41DDC7E4AC33CE4C /* Resources */,
+				666BD5415485F591165F17466763772C /* Headers */,
+				466E457DB737F4F104CC0D7B7E6721BD /* Sources */,
+				4854B81B04A8C97304CB44BCEA5AB031 /* Frameworks */,
+				CA1BA63EC3CCD2F9CF4E131F2B487885 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				690023EEFBA10527E5CD377F97425EAE /* PBXTargetDependency */,
-				5582E87B504611129EBD37D16411503A /* PBXTargetDependency */,
+				D926D35E25E0CA437B4A693D86800E1E /* PBXTargetDependency */,
+				83B68570E9341E080915D6A1F2A45EDD /* PBXTargetDependency */,
+				47FA5B6014DC4BA672E88A64C14C4CAB /* PBXTargetDependency */,
 			);
 			name = "Pods-RealEstateShorts";
 			productName = "Pods-RealEstateShorts";
@@ -477,7 +609,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E524987E02C69A707CD5116F0FEF2FFC /* PBXTargetDependency */,
+				B0667831A10675D4F681795BBB457E55 /* PBXTargetDependency */,
 			);
 			name = "Pods-RealEstateShortsTests";
 			productName = "Pods-RealEstateShortsTests";
@@ -538,10 +670,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 797144735C68B7F43ECAE026C44B4876 /* Products */;
+			productRefGroup = AD7D991781BABA294D772ED070EB081B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
 				B2F46A67275CC5973EE13076CD708247 /* ImageSlideshow */,
 				6804338700CDD11A99D5DED0103F32F9 /* Pods-RealEstateShorts */,
 				52F2FEF6A63FB935313B95EAAA8E9B94 /* Pods-RealEstateShorts-RealEstateShortsUITests */,
@@ -552,13 +685,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		044DC82C34C77EC96EF12097F6B0E392 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		145E33802FEE2F044BC25971B397C955 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -567,6 +693,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		44C17DFD0C7443449DD7646B1CC776DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6571FF59854C9ED976246EA41FEA37C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -582,7 +715,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A088658A4A7605AF41DDC7E4AC33CE4C /* Resources */ = {
+		717271783DF82CA09B87CA393D39F74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BA63EC3CCD2F9CF4E131F2B487885 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -592,19 +732,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		419BDD0333E4EFF6CD55AB604A709EC9 /* Sources */ = {
+		3B9939A4808EB6118FF91A52405ACE47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685AF185BC4DAB257B4F15C16A89102A /* Pods-RealEstateShorts-dummy.m in Sources */,
+				3177C143718A4CDC63DAA6C5059C01BB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6385385D85981B7C9EB2975B10F5FA62 /* Sources */ = {
+		466E457DB737F4F104CC0D7B7E6721BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00B6A6CAEDDCA61FF19B88F06C818DB /* Pods-RealEstateShorts-RealEstateShortsUITests-dummy.m in Sources */,
+				16072305A90E4C0F1EBA96D14DAB0A89 /* Pods-RealEstateShorts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2AD99A3C2BFB2E1448B62E35F78AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B594E04185C4C7522C612C631B8AD97A /* Cosmos-dummy.m in Sources */,
+				049FC8D781A7ECAED15F25718502D54E /* CosmosAccessibility.swift in Sources */,
+				E776F53E707AD1ACF7223305E9EEDBFC /* CosmosDefaultSettings.swift in Sources */,
+				E189E12EEDDD9A1484602416282A19F9 /* CosmosLayerHelper.swift in Sources */,
+				2FADA7115AEFDCC59593DD4201572539 /* CosmosLayers.swift in Sources */,
+				C0D5F472F17B5A0F9824C362F35A7132 /* CosmosLocalizedRating.swift in Sources */,
+				10A44B18B300E2B0BF5BF88F6F2E585F /* CosmosRating.swift in Sources */,
+				E0FD27E2F7F5C05D3390126C7DF35EA6 /* CosmosSettings.swift in Sources */,
+				4404A9C8152865C62A5B59B88640811C /* CosmosSize.swift in Sources */,
+				AC7DAE5B261F8CDE268794A1B7B06F56 /* CosmosText.swift in Sources */,
+				05DFD786F217BD0DFBFB5F57D80236A5 /* CosmosTouch.swift in Sources */,
+				5C7B76FBAD8574062F60041B012FE052 /* CosmosTouchTarget.swift in Sources */,
+				41E5B21F4758B2411A95A7C72523536D /* CosmosView.swift in Sources */,
+				61857850A19756A357AD6696D42E69A4 /* RightToLeft.swift in Sources */,
+				E9A920FE6E5FC6F5F58B6F3AA9B3FDAF /* StarFillMode.swift in Sources */,
+				4221AB8F56B1444AE176F2B13F81C557 /* StarLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,42 +813,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02204C478E7199C0452FD53AFF7DC582 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ImageSlideshow;
-			target = B2F46A67275CC5973EE13076CD708247 /* ImageSlideshow */;
-			targetProxy = 8C10D7E85106836BEDAA0FEA5C480596 /* PBXContainerItemProxy */;
-		};
-		5582E87B504611129EBD37D16411503A /* PBXTargetDependency */ = {
+		47FA5B6014DC4BA672E88A64C14C4CAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
 			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = C14B968A84AE4FA88AC791375A26C686 /* PBXContainerItemProxy */;
+			targetProxy = B4F26D65E9169D17A7338768BC871FFF /* PBXContainerItemProxy */;
 		};
-		690023EEFBA10527E5CD377F97425EAE /* PBXTargetDependency */ = {
+		83B68570E9341E080915D6A1F2A45EDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageSlideshow;
 			target = B2F46A67275CC5973EE13076CD708247 /* ImageSlideshow */;
-			targetProxy = FC597E0068D6EFBEE5B999156A9AD393 /* PBXContainerItemProxy */;
+			targetProxy = FB7000686FAE46FEFACDAF32C3A8BAA0 /* PBXContainerItemProxy */;
 		};
-		E524987E02C69A707CD5116F0FEF2FFC /* PBXTargetDependency */ = {
+		8C5B876547CA1F2F1099999B33BCBEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageSlideshow;
+			target = B2F46A67275CC5973EE13076CD708247 /* ImageSlideshow */;
+			targetProxy = B9917E858AF86536189DD328864BF9CE /* PBXContainerItemProxy */;
+		};
+		931BF0EF35DBDF1452CFD6970BDEC535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = A3ADCAE42037A30166661FF65EABB11D /* PBXContainerItemProxy */;
+		};
+		B0667831A10675D4F681795BBB457E55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RealEstateShorts";
 			target = 6804338700CDD11A99D5DED0103F32F9 /* Pods-RealEstateShorts */;
-			targetProxy = FBA7C9052B952A75D923C9CBBFF8F69E /* PBXContainerItemProxy */;
+			targetProxy = CBE6399E05B78A4E1CE0351EA5B075B2 /* PBXContainerItemProxy */;
 		};
-		FCCCDD0B6DBCAE1A45AAA3ED2D1CEAE4 /* PBXTargetDependency */ = {
+		D926D35E25E0CA437B4A693D86800E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = 3E4785D64BD1C88C60854B717F1341A7 /* PBXContainerItemProxy */;
+		};
+		E267464D9357149D544F51D28EF87375 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
 			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = 8985BE1B0D494148E1D48562D8CFDB80 /* PBXContainerItemProxy */;
+			targetProxy = F4E5979F4630729CA90453FCDED6DAEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1B8B7CF2DB6F0B76B6D7DE8C7BB82D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A62219DB81AE5A9CCEFDE8860EA36C4E /* SkyFloatingLabelTextField.debug.xcconfig */;
+			baseConfigurationReference = 6BCD1937162DDE6A8DE474C93607BA61 /* SkyFloatingLabelTextField.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -719,7 +894,7 @@
 		};
 		1C02B687E0BD7DB6266DA9C4012D8A50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACC1E5FA997220EA4EFA67B22944E2F4 /* ImageSlideshow.release.xcconfig */;
+			baseConfigurationReference = 428B35B07412D7844329A0982CA45A56 /* ImageSlideshow.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -789,12 +964,10 @@
 			};
 			name = Debug;
 		};
-		38E27F4FFA4D74C28869469A516414FE /* Debug */ = {
+		656891F1001B7DAF3A78805997AFFC1B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DD42408E59728753AE81CDDBB5D2967 /* Pods-RealEstateShorts.debug.xcconfig */;
+			baseConfigurationReference = 1679AA5DF669DE112E30837CB52EC113 /* SkyFloatingLabelTextField.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -803,30 +976,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3DE99F564CA4C39575E7C42EAF1AB2E8 /* Debug */ = {
+		685C4F5C41442EA8D84CC9C2CDAA9EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2AEF2A9B375C4AE155A3D908447CBA9 /* Pods-RealEstateShorts-RealEstateShortsUITests.debug.xcconfig */;
 			buildSettings = {
@@ -862,41 +1035,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		656891F1001B7DAF3A78805997AFFC1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECB044703671F0B08E7A3AF08AACCB3F /* SkyFloatingLabelTextField.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		80DEE87F55ED145D3782DC0E0ACEA025 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -936,9 +1074,43 @@
 			};
 			name = Release;
 		};
+		8D92B77E78DC81B40AE4DC7C571D5743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD23197F8C211C5269417CF079BA45C3 /* Cosmos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		94F8A6C1CCA7B2D7693CB970625BBF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89029934B2B1E5CEC271DD30FC9034B1 /* ImageSlideshow.debug.xcconfig */;
+			baseConfigurationReference = D75F2F45BC25398D0259E15D0E72A627 /* ImageSlideshow.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -970,9 +1142,44 @@
 			};
 			name = Debug;
 		};
-		AC645AA20F33F1959105B3B839F29FA6 /* Release */ = {
+		9BFCFB527EDF553C841F5075E065B7A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC639CE912A0D65B0D64B349C15074CF /* Pods-RealEstateShorts.release.xcconfig */;
+			baseConfigurationReference = 481AF2BBB4C06AEC1EA2D5C6CA3AA3BA /* Cosmos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9D2AAB17F8148CB5C56490EA0BB9025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD42408E59728753AE81CDDBB5D2967 /* Pods-RealEstateShorts.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1002,11 +1209,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1136,7 +1342,7 @@
 			};
 			name = Release;
 		};
-		DB73508E590B60C92577DDE12114838A /* Release */ = {
+		E2B5B20EB64DD39830CB7029E7654D00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32D6F19CEF2ECF1E31874D54B1C63A73 /* Pods-RealEstateShorts-RealEstateShortsUITests.release.xcconfig */;
 			buildSettings = {
@@ -1174,6 +1380,44 @@
 			};
 			name = Release;
 		};
+		E9BF8B3897F669C2399E0C733735E22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC639CE912A0D65B0D64B349C15074CF /* Pods-RealEstateShorts.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1182,6 +1426,24 @@
 			buildConfigurations = (
 				1B8B7CF2DB6F0B76B6D7DE8C7BB82D63 /* Debug */,
 				656891F1001B7DAF3A78805997AFFC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1128C38BD1CE99E72D11F9241F1D8CD7 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D2AAB17F8148CB5C56490EA0BB9025 /* Debug */,
+				E9BF8B3897F669C2399E0C733735E22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB58DE8D5AE9A806AA0E150C692ADC0 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts-RealEstateShortsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685C4F5C41442EA8D84CC9C2CDAA9EA4 /* Debug */,
+				E2B5B20EB64DD39830CB7029E7654D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1204,15 +1466,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90CB403E4B50D9391BC825DAA0AC2F89 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38E27F4FFA4D74C28869469A516414FE /* Debug */,
-				AC645AA20F33F1959105B3B839F29FA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		93DD8A7FF630EEE5B99241C9523F85C5 /* Build configuration list for PBXNativeTarget "ImageSlideshow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1222,11 +1475,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D352EDEE73EEEB3338D4A4298C9DD4A6 /* Build configuration list for PBXNativeTarget "Pods-RealEstateShorts-RealEstateShortsUITests" */ = {
+		9C4761D1E5276039F76D9BA8BF0272D7 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DE99F564CA4C39575E7C42EAF1AB2E8 /* Debug */,
-				DB73508E590B60C92577DDE12114838A /* Release */,
+				8D92B77E78DC81B40AE4DC7C571D5743 /* Debug */,
+				9BFCFB527EDF553C841F5075E065B7A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -30,6 +30,9 @@ class AccountSeenVC: UIViewController {
                                     cornerRadiusValue: 24)
      }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
+    }
 
 
 }

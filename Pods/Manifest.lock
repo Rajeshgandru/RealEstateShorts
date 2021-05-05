@@ -1,22 +1,26 @@
 PODS:
+  - Cosmos (23.0.0)
   - ImageSlideshow (1.9.2):
     - ImageSlideshow/Core (= 1.9.2)
   - ImageSlideshow/Core (1.9.2)
   - SkyFloatingLabelTextField (4.0.0)
 
 DEPENDENCIES:
+  - Cosmos
   - ImageSlideshow (~> 1.9.0)
   - SkyFloatingLabelTextField
 
 SPEC REPOS:
   trunk:
+    - Cosmos
     - ImageSlideshow
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
   SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
 
-PODFILE CHECKSUM: 8d393792e4514215a69646a7c3ba3e3d91febe33
+PODFILE CHECKSUM: 052c71bcc22bd81446ec5961e891e4a3dd1f83fd
 
 COCOAPODS: 1.10.1

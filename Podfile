@@ -9,6 +9,7 @@ target 'RealEstateShorts' do
   
   pod 'SkyFloatingLabelTextField'
   pod 'ImageSlideshow', '~> 1.9.0'
+  pod 'Cosmos'
   
   
 

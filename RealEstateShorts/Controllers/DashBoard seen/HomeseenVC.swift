@@ -30,12 +30,22 @@ class HomeseenVC: UIViewController {
         self.LoadImagesView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
+    }
+    
     @IBAction func movetoSearchScreenbtnref(_ sender: Any) {
         let storyBoard: UIStoryboard = UIStoryboard(name: "DashBoard", bundle: nil)
         let vc = storyBoard.instantiateViewController(withIdentifier: "SearchScreenVC") as! SearchScreenVC
          self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+    @IBAction func movetoSettingsScreenbtnref(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "DashBoard", bundle: nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "SettingsSeenVC") as! SettingsSeenVC
+         self.navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 extension HomeseenVC: UICollectionViewDelegate,UICollectionViewDataSource {

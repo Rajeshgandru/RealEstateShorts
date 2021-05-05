@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7C2B8D6AEBEB0B48CFC06C4F /* Pods_RealEstateShorts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA760BD8503FA8882BCAE6 /* Pods_RealEstateShorts.framework */; };
 		9DA8AE439C4B437929B076E2 /* Pods_RealEstateShortsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E93537ADED65269DFE5DB7C /* Pods_RealEstateShortsTests.framework */; };
+		BA181017264269F600AA4527 /* SettingsSeenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA181016264269F600AA4527 /* SettingsSeenVC.swift */; };
+		BA1810192642760600AA4527 /* InviteFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1810182642760600AA4527 /* InviteFriendsVC.swift */; };
 		BA411578263FB284006F1E29 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156A263FB284006F1E29 /* PlayfairDisplay-Bold.ttf */; };
 		BA411579263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156B263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf */; };
 		BA41157A263FB284006F1E29 /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA41156C263FB284006F1E29 /* PlayfairDisplay-Medium.ttf */; };
@@ -24,6 +26,7 @@
 		BA411584263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411576263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf */; };
 		BA411585263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA411577263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf */; };
 		BA411587264018BB006F1E29 /* SearchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA411586264018BA006F1E29 /* SearchScreenVC.swift */; };
+		BA6CDAE726427EFD005326FF /* RateTheAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CDAE626427EFD005326FF /* RateTheAppVC.swift */; };
 		BA942EBB263D450200C9A092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942EBA263D450200C9A092 /* AppDelegate.swift */; };
 		BA942EBD263D450200C9A092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942EBC263D450200C9A092 /* SceneDelegate.swift */; };
 		BA942EBF263D450200C9A092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA942EBE263D450200C9A092 /* ViewController.swift */; };
@@ -82,6 +85,8 @@
 		6813D18345370A77099FD3F8 /* Pods-RealEstateShortsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateShortsTests.release.xcconfig"; path = "Target Support Files/Pods-RealEstateShortsTests/Pods-RealEstateShortsTests.release.xcconfig"; sourceTree = "<group>"; };
 		75EA760BD8503FA8882BCAE6 /* Pods_RealEstateShorts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstateShorts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED346847F1D76ED8CB6C0F3 /* Pods-RealEstateShorts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateShorts.release.xcconfig"; path = "Target Support Files/Pods-RealEstateShorts/Pods-RealEstateShorts.release.xcconfig"; sourceTree = "<group>"; };
+		BA181016264269F600AA4527 /* SettingsSeenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSeenVC.swift; sourceTree = "<group>"; };
+		BA1810182642760600AA4527 /* InviteFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsVC.swift; sourceTree = "<group>"; };
 		BA41156A263FB284006F1E29 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		BA41156B263FB284006F1E29 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
 		BA41156C263FB284006F1E29 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
@@ -97,6 +102,7 @@
 		BA411576263FB284006F1E29 /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
 		BA411577263FB284006F1E29 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
 		BA411586264018BA006F1E29 /* SearchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenVC.swift; sourceTree = "<group>"; };
+		BA6CDAE626427EFD005326FF /* RateTheAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTheAppVC.swift; sourceTree = "<group>"; };
 		BA942EB7263D450200C9A092 /* RealEstateShorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstateShorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA942EBA263D450200C9A092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA942EBC263D450200C9A092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -303,6 +309,9 @@
 				BA942F33263D745700C9A092 /* AccountSeenVC.swift */,
 				BA942F35263D748300C9A092 /* TabBarVC.swift */,
 				BA411586264018BA006F1E29 /* SearchScreenVC.swift */,
+				BA181016264269F600AA4527 /* SettingsSeenVC.swift */,
+				BA6CDAE626427EFD005326FF /* RateTheAppVC.swift */,
+				BA1810182642760600AA4527 /* InviteFriendsVC.swift */,
 			);
 			path = "DashBoard seen";
 			sourceTree = "<group>";
@@ -592,6 +601,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA181017264269F600AA4527 /* SettingsSeenVC.swift in Sources */,
 				BA942EBF263D450200C9A092 /* ViewController.swift in Sources */,
 				BA942EF4263D523A00C9A092 /* ViewAnimation.swift in Sources */,
 				BA942F30263D741700C9A092 /* HomeseenVC.swift in Sources */,
@@ -600,12 +610,14 @@
 				BA942EBB263D450200C9A092 /* AppDelegate.swift in Sources */,
 				BA942EC5263D450200C9A092 /* RealEstateShorts.xcdatamodeld in Sources */,
 				BA411587264018BB006F1E29 /* SearchScreenVC.swift in Sources */,
+				BA1810192642760600AA4527 /* InviteFriendsVC.swift in Sources */,
 				BA942F11263D6A2300C9A092 /* RegistartionseenVC.swift in Sources */,
 				BA942F0B263D5D0400C9A092 /* GuideSeenTwoVC.swift in Sources */,
 				BA942F34263D745700C9A092 /* AccountSeenVC.swift in Sources */,
 				BA942F32263D743700C9A092 /* BookMarkSeenVC.swift in Sources */,
 				BA942EBD263D450200C9A092 /* SceneDelegate.swift in Sources */,
 				BA942EEF263D460A00C9A092 /* LounchScreenVC.swift in Sources */,
+				BA6CDAE726427EFD005326FF /* RateTheAppVC.swift in Sources */,
 				BA942F0D263D5F0300C9A092 /* GuideSeenThreeVC.swift in Sources */,
 				BA942F36263D748300C9A092 /* TabBarVC.swift in Sources */,
 				BA942F0F263D608900C9A092 /* LoginseenVC.swift in Sources */,
